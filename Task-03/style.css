@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; 
+  background-color: black;
+}
+.login-wrapper{
+  width: 420px;
+  background: #7c3aed;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+.login-wrapper h1 {
+  text-align: center;
+}
+
+.login-wrapper .input-box{
+  width: 100%;
+  height: 50px; 
+  margin: 20px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid #efefef;
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.login-wrapper .remember-me {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-me label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+.remember-me a {
+  color: #fff;
+  text-decoration: none;
+}
+.remember-me a:hover {
+  text-decoration: underline;
+}
+
+.login-wrapper button {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+.login-wrapper .register-link {
+  text-align: center; 
+  margin: 20px 10px;
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}

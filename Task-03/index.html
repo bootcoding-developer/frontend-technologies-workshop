@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <form action="" id="login-form"> 
+            <h1>Login Page</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="remember-me">
+                <label ><input type="checkbox" name="" id=""> Remember Me </label>
+                <a href="#">Forgot Password</a>
+            </div>
+    
+            <button type="submit" value="Login" id="login-form-submit">Login</button>
+
+            <div id="login-error-msg-holder" style="color: rgb(9, 0, 11);">
+                <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+            </div>
+    
+            <div class="register-link">
+                <p>Don't have an account? 
+                    <a href="#">Register</a>
+                </p> 
+            </div>
+        </form>
+    </div>
+    <script src="index.js" />
+</body>
+</html>
